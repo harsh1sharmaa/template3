@@ -1,0 +1,18 @@
+li{
+    float: right;
+    list-style-type: none;
+}
+main{
+    padding: 10px 10px 10px 10px ;
+}
+a{
+
+    /* text-decoration: none; */
+    margin: 10px 50px 10px 10px;
+}
+#hadder{
+    overflow: hidden;
+}
+#logo{
+    margin-left: 20px;
+}
