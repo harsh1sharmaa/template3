@@ -16,3 +16,32 @@ a{
 #logo{
     margin-left: 20px;
 }
+#cont{
+    padding-left: 20px;
+    padding: 20px 0px 20px 20px;
+    /* border: 1px solid black; */
+    background-color: rgb(228, 225, 225);
+  
+    
+}
+#cont p{
+    padding-right: 70%;
+    /* padding-left: 3%; */
+}
+#btn{
+    padding: 5px 5px 5px 5px;
+}
+#cont2{
+    display: flex;
+    padding-top: 10%;
+}
+.one{
+    text-align: center;
+    padding: 5px 10px 5px 10px ;
+    max-width: 33%;
+     /* border: 1px solid black; */
+    
+}
+.one a{
+    color: black;
+}
