@@ -32,13 +32,46 @@ a{
     padding: 5px 5px 5px 5px;
 }
 #cont2{
+
     display: flex;
+
+     overflow: hidden;
+     
+     margin-left: 20px;
+     
+     
     padding-top: 10%;
+    margin-bottom: 80px;
+    
 }
+@media only screen and (max-width: 768px) {
+    #cont2{
+
+        display: grid;
+    
+         overflow: hidden;
+         
+         margin-left: 20px;
+         
+         
+        padding-top: 10%;
+        margin-bottom: 80px;
+        
+    }
+  }
 .one{
+
     text-align: center;
+    min-width: 20%;
+    
+   
+    
     padding: 5px 10px 5px 10px ;
-    max-width: 33%;
+   
+
+    margin-right: 2px;
+    background-color: rgb(228, 225, 225);;
+
      /* border: 1px solid black; */
     
 }
@@ -46,48 +79,64 @@ a{
     color: black;
 }
  #sub h2{
-    
-    font-size: 20px;
 
-    margin-right: 5px;
-    /* margin-left: 330px; */
+    font-size: 20px;
+    
+
+    /* margin-right: 19px; */
+    
 }
 
 #inpt{
-    padding: 10px 10px 10px 10px;
-    margin-right: 0px;
+    padding: 15px 10px 13px 10p;
+    margin-right: 10px;
+    margin-top: 5px;
+    
 
 
 }
 #buttn{
     margin-left: 0px;
-    padding: 10px 200px 10px 50px;
+    padding: 10px 200px 10px 20px;
     background-color: rgb(144, 144, 247);
     margin-top: 10px;
 
 }
 #fotr{
-    /* padding-left: 380px;
-     */
-     padding-left: 20rem;
-    margin-top: 50px;
-    overflow: hidden;
    
-    /* display: flex; */
-    /* justify-content: space-evenly; */
+    /* width: 65%;
+    margin-top: 50px;
+    margin-left: 0px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto; 
+    background-color: rgb(245, 245, 245);
+    padding: 5px 170px 1px 170px; */
+   
+
+    overflow: hidden;
+    display: block;
+    margin-left: 20px;
     
-    align-items: center;
-    /* border: 1px solid blue; */
-    /* margin-top: 50px;
-    display: flex;
-    border: 1px solid blue;
-    justify-content: space-evenly;
-    align-items: center; */
+   padding-top: 10%;
+   margin-bottom: 80px;
+    
+    
 }
 .two{
+      /* max-width: 20%;
     float: left;
     align-items: center;
-    /* max-width: 30%; */
+    margin: 0px 0px 0px 0px; */
+   
+    text-align: center;
+    float: left; 
+    
+    padding: 5px 10px 5px 0px ;
+    max-width: 30%;
+    margin-right: 0px 
+      
+
 
 } 
 input[type="text" i] {
@@ -95,6 +144,11 @@ input[type="text" i] {
 }
 
 #botm{
-    display: flex;
-    justify-content: space-between;
+     display: flex;
+    justify-content: space-between; 
+} 
+#sub{
+   padding: 0px 10px 0px 20px;
+   /* min-width: 80px; */
+   margin-left: 15rem;
 }
