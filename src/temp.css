@@ -45,3 +45,56 @@ a{
 .one a{
     color: black;
 }
+ #sub h2{
+    
+    font-size: 20px;
+
+    margin-right: 5px;
+    /* margin-left: 330px; */
+}
+
+#inpt{
+    padding: 10px 10px 10px 10px;
+    margin-right: 0px;
+
+
+}
+#buttn{
+    margin-left: 0px;
+    padding: 10px 200px 10px 50px;
+    background-color: rgb(144, 144, 247);
+    margin-top: 10px;
+
+}
+#fotr{
+    /* padding-left: 380px;
+     */
+     padding-left: 20rem;
+    margin-top: 50px;
+    overflow: hidden;
+   
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    
+    align-items: center;
+    /* border: 1px solid blue; */
+    /* margin-top: 50px;
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+.two{
+    float: left;
+    align-items: center;
+    /* max-width: 30%; */
+
+} 
+input[type="text" i] {
+    padding: 10px ;
+}
+
+#botm{
+    display: flex;
+    justify-content: space-between;
+}
